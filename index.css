@@ -1,5 +1,5 @@
 .perfume{
-    width: fit-content;
+    width:450px;
     height: fit-content;
     background-color: whitesmoke;
     border-radius: 15px;
@@ -81,6 +81,40 @@ body{
     height: 365px;
     margin-left: 0px;
 }
+.wer{
+    margin-top: 20px;
+    overflow-y: auto;
+   }
 *{
     margin-left: 5px;
+}
+  @media only screen and (max-width: 700px) {
+   .perfume{
+    display: flex;
+    flex-direction: column;
+   }
+   .perfume{
+    height: fit-content;
+   }
+   .weder{
+    width: 300px
+   }
+   .weder{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 300px;
+   }
+   .t , .y , .u{
+    font-size: 15px;
+    margin-bottom: 20px;
+   }
+   .wer{
+    margin-bottom: 20px;
+    margin-left: 35px;
+   }
+   .perfume{
+    width: fit-content;
+   }
 }
